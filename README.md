@@ -14,3 +14,11 @@ RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to 
   <li>All files are in the appropriate places, all links are properly connected, naming is properly setup and topics are correctly mapped. Furthermore, the appropriate launch files are generated to launch the robot and map its surrounding environment.</li>  
   <li>Aftre the robot is successfully launched in the environment, I teleop-ed around the room </li>  
 </ul>
+
+### Integration with RTAB-Map Pacakge
+According to the documentation,<a href="http://wiki.ros.org/rtabmap_ros" target="_blank">http://wiki.ros.org/rtabmap_ros</a> the recommended robot configuration requires:
+<ul>
+<li>A 2D Laser, providing sensor_msgs/LaserScan messages
+<li>Odometry sensors, providing nav_msgs/Odometry messages
+<li>3D Camera, compatible with openni_launch, openni2_launch or freenect_launch ROS packages
+</ul>

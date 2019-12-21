@@ -2,6 +2,7 @@
 
 Mobile Robot - RTAB-Map Graphics SLAM Mapping.
 
+![](workspace/RESULT%20IMAGES/Demo.gif)
 ![](workspace/RESULT%20IMAGES/RtabMap_DatabaseViewer.PNG)
 
 ## Overview
